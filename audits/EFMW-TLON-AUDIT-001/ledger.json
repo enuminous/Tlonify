@@ -1,0 +1,236 @@
+{
+  "id": "EFMW-TLON-AUDIT-001",
+  "date": "2026-11-25",
+  "status": "RETROSPECTIVE_DOCUMENTARY_ASSESSMENT",
+  "scope": "Selected EFMW records; not a full corpus audit or executed 23-operation software suite",
+  "criteria": "Retrospectively selected, not preregistered",
+  "counts": {
+    "PASS": 4,
+    "FAIL": 1,
+    "UNRESOLVED": 18,
+    "NOT_APPLICABLE": 0
+  },
+  "operations": [
+    {
+      "id": "TL-Z01",
+      "name": "claim extraction",
+      "criterion": "Complete deduplicated corpus claim inventory",
+      "verdict": "UNRESOLVED",
+      "finding": "Selected records extracted; no corpus census.",
+      "evidence": [
+        "https://github.com/enuminous/Tlonify/blob/035804c62b7222eeb261ca5385f2ba3b1632f73f/results/EFMW-TLON-002/ASSESSMENT.md"
+      ]
+    },
+    {
+      "id": "TL-Z02",
+      "name": "source provenance",
+      "criterion": "All consequential claims linked to immutable source and evidence roots",
+      "verdict": "UNRESOLVED",
+      "finding": "Selected reports linked; dependency graph incomplete.",
+      "evidence": [
+        "https://github.com/enuminous/Tlonify/blob/035804c62b7222eeb261ca5385f2ba3b1632f73f/results/EFMW-TLON-002/ASSESSMENT.md",
+        "https://github.com/enuminous/papers/blob/c1404eade6168f848f0680357aed92f5a952204e/EFMW-Dissertation-Recursive-Coherence-Evidence-Bounded-Verification-2026-11-02.md"
+      ]
+    },
+    {
+      "id": "TL-Z03",
+      "name": "source independence",
+      "criterion": "At least one documented outside reproduction for selected benchmark",
+      "verdict": "PASS",
+      "finding": "EXP-003 outside reproduction documented; independence not authenticated anew.",
+      "evidence": [
+        "https://github.com/enuminous/papers/blob/c1404eade6168f848f0680357aed92f5a952204e/My-Dinner-With-Claude-2026-11-11.md"
+      ]
+    },
+    {
+      "id": "TL-Z04",
+      "name": "citation circularity",
+      "criterion": "Complete citation DAG checked for circular support",
+      "verdict": "UNRESOLVED",
+      "finding": "No graph traversal performed.",
+      "evidence": []
+    },
+    {
+      "id": "TL-Z05",
+      "name": "narrative coherence",
+      "criterion": "Corpus-wide contradictions and claim scope reconciled",
+      "verdict": "UNRESOLVED",
+      "finding": "Selected papers distinguish evidence levels, not a complete consistency audit.",
+      "evidence": [
+        "https://github.com/enuminous/papers/blob/c1404eade6168f848f0680357aed92f5a952204e/EFMW-Dissertation-Recursive-Coherence-Evidence-Bounded-Verification-2026-11-02.md",
+        "https://github.com/enuminous/Tlonify/blob/035804c62b7222eeb261ca5385f2ba3b1632f73f/results/EFMW-TLON-002/ASSESSMENT.md"
+      ]
+    },
+    {
+      "id": "TL-Z06",
+      "name": "empirical correspondence",
+      "criterion": "Independent physical observations discriminate EFMW-specific mechanism",
+      "verdict": "UNRESOLVED",
+      "finding": "Synthetic and formal results do not supply physical confirmation.",
+      "evidence": [
+        "https://github.com/enuminous/papers/blob/c1404eade6168f848f0680357aed92f5a952204e/EFMW-Dissertation-Recursive-Coherence-Evidence-Bounded-Verification-2026-11-02.md",
+        "https://github.com/enuminous/papers/blob/c1404eade6168f848f0680357aed92f5a952204e/EFMW-HYP-001A-Known-Zero-Recovery-2026-11-13.md",
+        "https://github.com/enuminous/papers/blob/c1404eade6168f848f0680357aed92f5a952204e/STEP-EB-CC-p9-Strike-Point-and-Fiesta-Comparison-2026-11-24.md"
+      ]
+    },
+    {
+      "id": "TL-Z07",
+      "name": "causal attribution",
+      "criterion": "Unique EFMW mechanism isolated against matched conventional controls",
+      "verdict": "UNRESOLVED",
+      "finding": "Signed residual and decay confounded; broad attribution not established.",
+      "evidence": [
+        "https://github.com/enuminous/papers/blob/c1404eade6168f848f0680357aed92f5a952204e/EFMW-Dissertation-Recursive-Coherence-Evidence-Bounded-Verification-2026-11-02.md",
+        "https://github.com/enuminous/papers/blob/c1404eade6168f848f0680357aed92f5a952204e/My-Dinner-With-Claude-2026-11-11.md"
+      ]
+    },
+    {
+      "id": "TL-Z08",
+      "name": "self-fulfillment",
+      "criterion": "Intervention-induced outcomes separated from predictions",
+      "verdict": "UNRESOLVED",
+      "finding": "No controlled test.",
+      "evidence": []
+    },
+    {
+      "id": "TL-Z09",
+      "name": "counterfactual evaluation",
+      "criterion": "Selected negative controls explicitly reported",
+      "verdict": "PASS",
+      "finding": "Known-zero trials and comparator reversal reported.",
+      "evidence": [
+        "https://github.com/enuminous/papers/blob/c1404eade6168f848f0680357aed92f5a952204e/EFMW-HYP-001A-Known-Zero-Recovery-2026-11-13.md",
+        "https://github.com/enuminous/papers/blob/c1404eade6168f848f0680357aed92f5a952204e/WORLD-GRID-005-Equal-Budget-Negative-Result.md",
+        "https://github.com/enuminous/papers/blob/c1404eade6168f848f0680357aed92f5a952204e/My-Dinner-With-Claude-2026-11-11.md"
+      ]
+    },
+    {
+      "id": "TL-Z10",
+      "name": "alternative models",
+      "criterion": "Selected matched conventional comparator explicitly evaluated",
+      "verdict": "PASS",
+      "finding": "Equal-budget PI-plus-lag benchmark reported.",
+      "evidence": [
+        "https://github.com/enuminous/papers/blob/c1404eade6168f848f0680357aed92f5a952204e/WORLD-GRID-005-Equal-Budget-Negative-Result.md"
+      ]
+    },
+    {
+      "id": "TL-Z11",
+      "name": "consensus independence",
+      "criterion": "Independent evidence roots distinguished from agent agreement throughout corpus",
+      "verdict": "UNRESOLVED",
+      "finding": "No corpus-level independence audit.",
+      "evidence": []
+    },
+    {
+      "id": "TL-Z12",
+      "name": "shared errors",
+      "criterion": "Correlated agent error quantified on held-out cases",
+      "verdict": "UNRESOLVED",
+      "finding": "No such test executed for this audit.",
+      "evidence": []
+    },
+    {
+      "id": "TL-Z13",
+      "name": "calibration",
+      "criterion": "Selected known-zero adjusted pipeline meets nominal 5% false-positive target",
+      "verdict": "FAIL",
+      "finding": "Reported 9.9%; naive 99.9%. This is a bounded estimator failure.",
+      "evidence": [
+        "https://github.com/enuminous/papers/blob/c1404eade6168f848f0680357aed92f5a952204e/EFMW-HYP-001A-Known-Zero-Recovery-2026-11-13.md"
+      ]
+    },
+    {
+      "id": "TL-Z14",
+      "name": "claim production",
+      "criterion": "Measured consequential claim arrivals per time window",
+      "verdict": "UNRESOLVED",
+      "finding": "g=12 is illustrative, not observed.",
+      "evidence": [
+        "https://github.com/enuminous/Tlonify/tree/035804c62b7222eeb261ca5385f2ba3b1632f73f/results"
+      ]
+    },
+    {
+      "id": "TL-Z15",
+      "name": "verification capacity",
+      "criterion": "Measured independent resolutions per time window",
+      "verdict": "UNRESOLVED",
+      "finding": "Simulation parameters are hypothetical.",
+      "evidence": [
+        "https://github.com/enuminous/Tlonify/tree/035804c62b7222eeb261ca5385f2ba3b1632f73f/results"
+      ]
+    },
+    {
+      "id": "TL-Z16",
+      "name": "backlog",
+      "criterion": "Actual deduplicated unresolved claim ledger measured",
+      "verdict": "UNRESOLVED",
+      "finding": "Toy-model backlog is not an institutional measurement.",
+      "evidence": [
+        "https://github.com/enuminous/Tlonify/tree/035804c62b7222eeb261ca5385f2ba3b1632f73f/results"
+      ]
+    },
+    {
+      "id": "TL-Z17",
+      "name": "institutional adoption",
+      "criterion": "Observed adoption of claims linked to evidentiary status",
+      "verdict": "UNRESOLVED",
+      "finding": "No decision census.",
+      "evidence": []
+    },
+    {
+      "id": "TL-Z18",
+      "name": "incentive conflicts",
+      "criterion": "Conflicts recorded and independently reviewed",
+      "verdict": "UNRESOLVED",
+      "finding": "No governance record examined for this operation.",
+      "evidence": []
+    },
+    {
+      "id": "TL-Z19",
+      "name": "representational dependency",
+      "criterion": "Dependence on dominant representations measured",
+      "verdict": "UNRESOLVED",
+      "finding": "Adoption proxy is not a measurement.",
+      "evidence": [
+        "https://github.com/enuminous/Tlonify/tree/035804c62b7222eeb261ca5385f2ba3b1632f73f/results"
+      ]
+    },
+    {
+      "id": "TL-Z20",
+      "name": "correction latency",
+      "criterion": "Time from challenge to documented correction measured",
+      "verdict": "UNRESOLVED",
+      "finding": "No longitudinal event ledger.",
+      "evidence": []
+    },
+    {
+      "id": "TL-Z21",
+      "name": "independent challenge",
+      "criterion": "At least one documented external criticism retained in published record",
+      "verdict": "PASS",
+      "finding": "EXP-003 variance-fault reversal and confounding documented.",
+      "evidence": [
+        "https://github.com/enuminous/papers/blob/c1404eade6168f848f0680357aed92f5a952204e/My-Dinner-With-Claude-2026-11-11.md"
+      ]
+    },
+    {
+      "id": "TL-Z22",
+      "name": "reversal authority",
+      "criterion": "Independent reviewer authorized to reverse consequential decisions",
+      "verdict": "UNRESOLVED",
+      "finding": "Authority not established in inspected records.",
+      "evidence": []
+    },
+    {
+      "id": "TL-Z23",
+      "name": "ontological stability",
+      "criterion": "Calibrated joint backlog, unsupported adoption, divergence and correction failure assessed",
+      "verdict": "UNRESOLVED",
+      "finding": "Composite index nonspecific; no actual institutional calibration.",
+      "evidence": [
+        "https://github.com/enuminous/Tlonify/tree/035804c62b7222eeb261ca5385f2ba3b1632f73f/results"
+      ]
+    }
+  ]
+}
