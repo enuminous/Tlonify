@@ -1,0 +1,173 @@
+{
+  "version": "0.1.0",
+  "status": "PROPOSED",
+  "verdicts": {
+    "PASS": "specified criterion supported by evidence",
+    "FAIL": "specified criterion contradicted by evidence",
+    "UNRESOLVED": "missing evidence, criterion or execution",
+    "NOT_APPLICABLE": "documented scope exclusion"
+  },
+  "operations": [
+    {
+      "id": "TL-Z01",
+      "name": "claim extraction",
+      "criterion": null,
+      "evidence": [],
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "TL-Z02",
+      "name": "source provenance",
+      "criterion": null,
+      "evidence": [],
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "TL-Z03",
+      "name": "source independence",
+      "criterion": null,
+      "evidence": [],
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "TL-Z04",
+      "name": "citation circularity",
+      "criterion": null,
+      "evidence": [],
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "TL-Z05",
+      "name": "narrative coherence",
+      "criterion": null,
+      "evidence": [],
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "TL-Z06",
+      "name": "empirical correspondence",
+      "criterion": null,
+      "evidence": [],
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "TL-Z07",
+      "name": "causal attribution",
+      "criterion": null,
+      "evidence": [],
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "TL-Z08",
+      "name": "self-fulfillment",
+      "criterion": null,
+      "evidence": [],
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "TL-Z09",
+      "name": "counterfactual evaluation",
+      "criterion": null,
+      "evidence": [],
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "TL-Z10",
+      "name": "alternative models",
+      "criterion": null,
+      "evidence": [],
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "TL-Z11",
+      "name": "consensus independence",
+      "criterion": null,
+      "evidence": [],
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "TL-Z12",
+      "name": "shared errors",
+      "criterion": null,
+      "evidence": [],
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "TL-Z13",
+      "name": "calibration",
+      "criterion": null,
+      "evidence": [],
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "TL-Z14",
+      "name": "claim production",
+      "criterion": null,
+      "evidence": [],
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "TL-Z15",
+      "name": "verification capacity",
+      "criterion": null,
+      "evidence": [],
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "TL-Z16",
+      "name": "backlog",
+      "criterion": null,
+      "evidence": [],
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "TL-Z17",
+      "name": "institutional adoption",
+      "criterion": null,
+      "evidence": [],
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "TL-Z18",
+      "name": "incentive conflicts",
+      "criterion": null,
+      "evidence": [],
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "TL-Z19",
+      "name": "representational dependency",
+      "criterion": null,
+      "evidence": [],
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "TL-Z20",
+      "name": "correction latency",
+      "criterion": null,
+      "evidence": [],
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "TL-Z21",
+      "name": "independent challenge",
+      "criterion": null,
+      "evidence": [],
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "TL-Z22",
+      "name": "reversal authority",
+      "criterion": null,
+      "evidence": [],
+      "verdict": "UNRESOLVED"
+    },
+    {
+      "id": "TL-Z23",
+      "name": "ontological stability",
+      "criterion": null,
+      "evidence": [],
+      "verdict": "UNRESOLVED"
+    }
+  ]
+}
