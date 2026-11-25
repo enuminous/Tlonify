@@ -1,0 +1,11 @@
+{
+  "runs": 8575,
+  "states": 3438575,
+  "zero_q40": 4055,
+  "zero_q400": 3945,
+  "risk_ge_075_40": 2047,
+  "risk_ge_075_400": 3298,
+  "invariant_failures": 0,
+  "zero_mismatch_high_risk400": 667,
+  "zero_mismatch_runs": 1715
+}

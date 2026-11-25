@@ -1,0 +1,2 @@
+# Findings
+The model can generate high risk with zero new mismatch and zero explicit feedback gain, because the backlog-to-adoption pathway is independently reinforcing. The composite risk index is not specific to epistemic displacement. Numerical invariants passed on the tested grid, but no causal or empirical validation follows. Retain all adverse findings and test mechanism removal. The seven protocols remain unrun.
